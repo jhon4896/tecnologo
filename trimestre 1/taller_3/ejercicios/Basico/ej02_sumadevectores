@@ -1,0 +1,21 @@
+##pseint
+
+´´´´texto
+
+Algoritmo  Suma_de_un_vector
+	Definir suma,num Como Real;
+	Definir indice Como Entero;
+	suma <- 0;
+	Dimensionar num(6);
+	Para indice <-1 hasta 6 Hacer
+		Escribir "ingersa los numeros que desda sumar";
+		Leer num(indice);
+		suma <- suma + num(indice);
+		
+	FinPara
+	Escribir "------------------------------";
+	Escribir "el resultado es";
+	Escribir "--------------------------";
+Escribir suma;
+	
+FinAlgoritmo
