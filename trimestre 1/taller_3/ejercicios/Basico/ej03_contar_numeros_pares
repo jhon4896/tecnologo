@@ -1,0 +1,13 @@
+##pseint
+
+```text
+Algoritmo Contar_numeros_pares
+	Definir numero,indice,numpares,numimpares Como Entero;
+	Dimensionar numero(10);
+	para indice <- 1 Hasta 10 Hacer
+		Escribir "escriba los 10 numeros que desea separar enter pares y impares";
+		Leer numero(indice);
+	FinPara
+	
+	
+FinAlgoritmo
