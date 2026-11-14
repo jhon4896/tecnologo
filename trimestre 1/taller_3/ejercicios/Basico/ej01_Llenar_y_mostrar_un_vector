@@ -1,1 +1,19 @@
+**pseint
+´´´´texto
+Algoritmo  mostrar_vector
+	Definir numeros, ubicacion Como Entero;
+	Dimension numeros(8);
+	Para ubicacion <- 1 Hasta 8 Con Paso 1 Hacer
+        Escribir "Ingrese el número entero para la posición ", ubicacion, ":";
+        Leer numeros[ubicacion];
+    FinPara
+    Escribir"Los números ingresados son:";
+	Para ubicacion <-1 hasta 8 Hacer
+		Escribir numeros(ubicacion);
+		
+	FinPara
+
+FinAlgoritmo
+
+
 
